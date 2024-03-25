@@ -35,4 +35,8 @@ elems.forEach(function(ele){
         var bgimg=ele.getAttribute("data-img")
         page2.style.backgroundImage=`url(${bgimg})`
     })
+    ele.addEventListener("mouseout",()=>{
+        var bgimg=ele.getAttribute("data-img")
+        page2.style.backgroundImage='';
+    })
 })

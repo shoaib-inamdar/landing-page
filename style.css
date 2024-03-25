@@ -167,13 +167,57 @@ html,body{
 
 
 .page3{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background: rgb(210, 115, 115);
+    /* background: rgb(210, 115, 115); */
 }
 .page2 img{
     height: 300px;
     width: 300px;
     object-fit: cover;
     object-position: center;
+}
+.imgcontents{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+    /* flex-direction: column; */
+}
+.col1,.col2,.col3{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* margin: 0 30px; */
+    /* height: 100%; */
+}
+.imgcontainer{
+    padding: 15px;
+    /* height: 300px; */
+    /* width: 100px; */
+    /* margin-bottom: 5px; */
+    width: 400px;
+    height: 500px;
+}
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* width: 300px; */
+    object-fit: cover;
+}
+/* .imgcontainer img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5);
+    
+} */
+/* .imgcontainer:hover{
+} */
+#img1{
+    height: 600px; ;
+}
+#img2{
+    height: 300px;
 }
