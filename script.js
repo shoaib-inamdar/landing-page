@@ -16,13 +16,13 @@ tl.to(".loader video",{
     duration:.5,
     delay:1.5,
     ease:"expo.out"
-})
+},'a')
 tl.to(".loader",{
     top:"-100%",
     duration:.5,
-    // delay:.5,
+    delay:1.8,
     ease:"expo.out"
-})
+},'a')
 tl.to(".loader",{
     display:'none',
     opacity:0

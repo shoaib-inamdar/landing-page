@@ -49,6 +49,7 @@ html,body{
 .loader h1{
     position: relative;
     z-index: 9;
+    color: #fff;
 }
 .yellow{
     height: 100%;
